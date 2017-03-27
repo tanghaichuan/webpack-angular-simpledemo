@@ -7,5 +7,6 @@ $ git clone https://github.com/tanghaichuan/webpack-angular-simpledemo.git
 
 ### 0X02 run the dev
 $ npm install
+###
 $ npm start
 
