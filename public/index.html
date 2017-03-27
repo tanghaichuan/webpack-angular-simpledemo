@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+  <head>
+    <meta charset="utf-8">
+    <title>angular-webpack-demo</title>
+  </head>
+  <body>
+    <!--手风琴效果collapsible-->
+    <h1>手风琴切换</h1>
+  	<div id="collapsible" ng-controller="collapsible">
+  		<show>
+		    <showmore class="more" ng-repeat="tab in tabs" showtitle="tab.title">
+		        {{tab.text}}
+		    </showmore>
+		  </show>
+  	</div>
+    <br/>
+    <!--输入提示autoComplete-->
+    <h1>输入提示</h1>
+    <div id="autoComplete" ng-controller="autoComplete">
+      <dropdownlist/>
+    </div>
+    <!--显示更多displayMore-->
+    <h1>显示更多</h1>
+    <div id="displayMore" ng-controller="displayMoreFonts">
+      <displaymore>
+      大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字af大段文字大段文字大段文字f大段文字大段文字大段文字as大段文字大段文字大段文字a大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字
+      </displaymore>
+    </div>
+  </body>
+  <script src="bundle.js"></script>
+</html>
